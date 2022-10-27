@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { token_backend } from "../../../declarations/token_backend";
 import { canisterId, createActor } from "../../../declarations/token_backend";
 import { AuthClient } from "@dfinity/auth-client";
 
